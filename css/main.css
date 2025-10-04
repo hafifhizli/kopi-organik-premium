@@ -2388,11 +2388,19 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding-left: 10%;
 }
 
-.video-left h6 {
+.video-left h1 {
   text-transform: uppercase;
   letter-spacing: 2px;
   color: #b68834;
   font-size: 12px;
+  font-weight: 300;
+  padding-bottom: 20px;
+}
+.video-left h2 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #b68834;
+  font-size: 48px;
   font-weight: 300;
 }
 .text-center h2 {
@@ -2409,10 +2417,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   object-fit: cover; /* crop gambar biar rapi tanpa gepeng */
   display: block;
   margin: 0 auto; /* center alignment */
-}
-
-.video-left h1 {
-  padding-bottom: 20px;
 }
 
 .video-left p span {
@@ -2585,7 +2589,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/footer-bg.webp) center center/cover no-repeat;
 }
 
-.footer-area h6 {
+.footer-area h1 {
   color: #fff;
   margin-bottom: 25px;
   font-size: 18px;
@@ -2785,9 +2789,9 @@ body.mobile-nav-active #mobile-nav-toggle {
   align-items: center;
 }
 
-.single-menu .title-div h4 {
+.single-menu .title-div h1 {
   margin: 0;
-  font-size: 1 rem;
+  font-size: 0.5 rem;
 }
 
 .single-menu .title-div .price {
