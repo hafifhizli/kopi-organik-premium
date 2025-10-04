@@ -2329,7 +2329,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .banner-area {
   text-align: center; /* ketengahin teks */
   margin: 0 auto; /* supaya block div ketengah */
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/header-bg.jpg) center center/cover no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/header-bg.webp) center center/cover no-repeat;
 }
 
 @media (max-width: 1199.98px) {
@@ -2348,7 +2348,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 @media (max-width: 768px) {
   .banner-area {
-    background: url(../img/header-bg.jpg);
+    background: url(../img/header-bg.webp);
     background-position: 50% 90% 50% 50%;
   }
 }
@@ -2478,7 +2478,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .video-right {
-  background: url(../img/video-bg.jpg) no-repeat center;
+  background: url(../img/video-bg.webp) no-repeat center;
   background-size: cover;
   height: 350px;
   border-radius: 10px;
@@ -2500,7 +2500,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .menu-area {
-  background: url(../img/menu-bg.jpg) center;
+  background: url(../img/menu-bg.webp) center;
   background-size: cover;
 }
 
@@ -2631,9 +2631,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 .footer-area {
   color: #fff;
   padding-top: 220px;
-  background: url(../img/footer-bg.jpg) center;
+  background: url(../img/footer-bg.webp) center;
   background-size: cover;
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/footer-bg.jpg) center center/cover no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/footer-bg.webp) center center/cover no-repeat;
 }
 
 .footer-area h6 {

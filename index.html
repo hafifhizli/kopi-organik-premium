@@ -24,6 +24,20 @@
 }
 </script>
 
+  <head>
+	<script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "Product",
+  "name": "Kopi Organik Premium",
+  "image": "https://contoh.com/img/beans.png",
+  "description": "Kopi organik Gayo dari Aceh, diproses secara tradisional dan disangrai dengan penuh dedikasi.",
+  "brand": {
+    "@type": "Brand",
+    "name": "Kopi Organik Premium"
+  }
+}
+</script>
 
     <!-- Mobile Specific Meta -->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -40,7 +54,6 @@
     <!-- Site Title -->
     <title>Kopi Organik Premium</title>
 
-    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet" />
     <!--
 			CSS
 			============================================= -->
@@ -54,8 +67,14 @@
     <link rel="stylesheet" href="css/main.css" />
   </head>
   <body>
+
+    
 	<!-- Start Header Area -->
 	 <div id="header-placeholder"></div>
+<!-- Hamburger button only visible on mobile -->
+<button id="mobile-nav-toggle" aria-label="Toggle navigation" class="d-lg-none">
+  <span class="navbar-toggler-icon"></span>
+</button>
 
   <script>
     fetch("header.html")
@@ -129,7 +148,7 @@
         <!-- Wet Hulling -->
         <div class="col-lg-4">
           <div class="single-menu">
-            <img src="img/wethull.jpg" alt="Wet Hulling" class="img-fluid mb-3" />
+            <img src="img/wethull.webp" alt="Wet Hulling" class="img-fluid mb-3" />
             <div class="title-div justify-content-between d-flex">
               <h4>Wet Hulling (Giling Basah)</h4>
             </div>
@@ -146,7 +165,7 @@
         <!-- Full Wash -->
         <div class="col-lg-4">
           <div class="single-menu">
-            <img src="img/fullwash.jpg" alt="Full Wash" class="img-fluid mb-3" />
+            <img src="img/fullwash.webp" alt="Full Wash" class="img-fluid mb-3" />
             <div class="title-div justify-content-between d-flex">
               <h4>Full Wash</h4>
             </div>
@@ -162,7 +181,7 @@
         <!-- Natural -->
         <div class="col-lg-4">
           <div class="single-menu">
-            <img src="img/natural.jpg" alt="Natural Process" class="img-fluid mb-3" />
+            <img src="img/natural.webp" alt="Natural Process" class="img-fluid mb-3" />
             <div class="title-div justify-content-between d-flex">
               <h4>Natural (Bertaut Alam)</h4>
             </div>
@@ -178,7 +197,7 @@
         <!-- Honey Process -->
         <div class="col-lg-4">
           <div class="single-menu">
-            <img src="img/honey.jpg" alt="Honey Process" class="img-fluid mb-3" />
+            <img src="img/honey.webp" alt="Honey Process" class="img-fluid mb-3" />
             <div class="title-div justify-content-between d-flex">
               <h4>Honey Process (Manis Lembut)</h4>
             </div>
@@ -194,7 +213,7 @@
         <!-- Anti Maceration -->
         <div class="col-lg-4">
           <div class="single-menu">
-            <img src="img/anti.jpg" alt="Anti Maceration" class="img-fluid mb-3" />
+            <img src="img/anti.webp" alt="Anti Maceration" class="img-fluid mb-3" />
             <div class="title-div justify-content-between d-flex">
               <h4>Anti Maceration (Anaerobik)</h4>
             </div>
@@ -210,7 +229,7 @@
         <!-- Robusta -->
         <div class="col-lg-4">
           <div class="single-menu">
-            <img src="img/robusta.jpg" alt="Robusta" class="img-fluid mb-3" />
+            <img src="img/robusta.webp" alt="Robusta" class="img-fluid mb-3" />
             <div class="title-div justify-content-between d-flex">
               <h4>Robusta</h4>
             </div>
@@ -242,26 +261,26 @@
         </div>
         <div class="row">
           <div class="col-lg-4">
-            <a href="img/g4.jpg" class="img-pop-home">
-              <img class="img-fluid" src="img/g4.jpg" alt="" />
+            <a href="img/g4.webp" class="img-pop-home">
+              <img class="img-fluid" src="img/g4.webp" loading="lazy" alt="" />
             </a>
-            <a href="img/g2.jpg" class="img-pop-home">
-              <img class="img-fluid" src="img/g2.jpg" alt="" />
+            <a href="img/g2.webp" class="img-pop-home">
+              <img class="img-fluid" src="img/g2.webp"  loading="lazy" alt="" />
             </a>
           </div>
           <div class="col-lg-8">
-            <a href="img/g3.jpg" class="img-pop-home">
-              <img class="img-fluid" src="img/g3.jpg" alt="" />
+            <a href="img/g3.webp" class="img-pop-home">
+              <img class="img-fluid" src="img/g3.webp"  loading="lazy" alt="" />
             </a>
             <div class="row">
               <div class="col-lg-6">
-                <a href="img/g1.jpg" class="img-pop-home">
-                  <img class="img-fluid" src="img/g1.jpg" alt="" />
+                <a href="img/g1.webp" class="img-pop-home">
+                  <img class="img-fluid" src="img/g1.webp"  loading="lazy" alt="" />
                 </a>
               </div>
               <div class="col-lg-6">
-                <a href="img/g5.jpg" class="img-pop-home">
-                  <img class="img-fluid" src="img/g5.jpg" alt="" />
+                <a href="img/g5.webp" class="img-pop-home">
+                  <img class="img-fluid" src="img/g5.webp" loading="lazy" alt="" />
                 </a>
               </div>
     
@@ -351,7 +370,7 @@
         </div>
         <div class="row">
           <div class="col-lg-6 col-md-6 single-blog">
-            <img class="img-fluid" src="img/b1.jpg" alt="" />
+            <img class="img-fluid" src="img/b1.webp" alt="" />
             <ul class="post-tags">
               <li><a href="#">Kopi</a></li>
               <li><a href="#">Festival</a></li>
@@ -362,7 +381,7 @@
             <p class="post-date">03 Oktober 2025</p>
           </div>
           <div class="col-lg-6 col-md-6 single-blog">
-            <img class="img-fluid" src="img/b2.jpg" alt="" />
+            <img class="img-fluid" src="img/b2.webp" alt="" />
             <ul class="post-tags">
               <li><a href="#">Gayo</a></li>
               <li><a href="#">Internasional</a></li>
@@ -393,7 +412,6 @@ fetch('footer.html')
     <script src="js/vendor/jquery-2.2.4.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="js/vendor/bootstrap.min.js"></script>
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>
     <script src="js/easing.min.js"></script>
     <script src="js/hoverIntent.js"></script>
     <script src="js/superfish.min.js"></script>
