@@ -63,7 +63,7 @@ $(document).ready(function () {
       id: "",
     });
     $("body").append($mobile_nav);
-    $("body").prepend('<button type="button" aria-label="Toggle menu" id="mobile-nav-toggle"><i class="lnr lnr-menu"></i></button>');
+    $("body").prepend('<button type="button" id="mobile-nav-toggle" aria-label="Toggle navigation menu">' + '<span class="sr-only">Menu</span>' + '<i class="lnr lnr-menu" aria-hidden="true"></i>' + "</button>");
     $("body").append('<div id="mobile-body-overly"></div>');
     $("#mobile-nav").find(".menu-has-children").prepend('<i class="lnr lnr-chevron-down"></i>');
 
