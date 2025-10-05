@@ -2034,13 +2034,13 @@ h6 {
 }
 
 .nav-menu ul li {
-  transition: 0.3s;
+  transition: 0s;
 }
 
 .nav-menu ul li a {
   padding: 10px;
   color: #333;
-  transition: 0.3s;
+  transition: 0s;
   display: block;
   font-size: 12px;
   text-transform: none;
