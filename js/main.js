@@ -123,9 +123,10 @@ $(document).ready(function () {
 
         if ($("body").hasClass("mobile-nav-active")) {
           $("body").removeClass("mobile-nav-active");
-          $("#mobile-nav-toggle i").toggleClass("lnr-times lnr-bars");
+          $("#mobile-nav-toggle i").removeClass("lnr-cross").addClass("lnr-menu"); // ✅ fix
           $("#mobile-body-overly").fadeOut();
         }
+
         return false;
       }
     }
