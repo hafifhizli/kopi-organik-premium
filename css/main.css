@@ -1,3 +1,36 @@
+@font-face {
+  font-family: "FontAwesome";
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Linearicons-Free";
+  font-display: swap;
+}
+
+/* === Font Lokal Poppins === */
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
 body {
   color: #777777;
   font-family: "Poppins", sans-serif;
@@ -2366,25 +2399,29 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .video-left h1 {
-  text-transform: uppercase;
   letter-spacing: 2px;
   color: #b68834;
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 300;
   padding-bottom: 20px;
+  font-family: "Poppins", sans-serif;
 }
 .video-left h2 {
-  text-transform: uppercase;
   letter-spacing: 2px;
-  color: #b68834;
-  font-size: 48px;
-  font-weight: 300;
+  font-size: 32px;
+  font-weight: 3000;
+  font-family: "Poppins", sans-serif;
+}
+.video-left p {
+  color: #000;
+  font-weight: 400;
+  line-height: 1.8em;
+  text-align: justify;
 }
 .text-center h2 {
-  text-transform: uppercase;
   letter-spacing: 2px;
   color: #b68834;
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 300;
 }
 .single-menu img {
@@ -2452,8 +2489,22 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-weight: 600;
 }
 
+/* Perbaikan di sini */
 .single-menu p {
-  margin-bottom: 0;
+  margin-bottom: 10px;
+  text-align: justify; /* Rata kiri–kanan */
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  line-height: 1.7em;
+  color: #555;
+}
+
+.single-menu h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px; /* ubah sesuai selera, misalnya 18px–22px */
+  font-weight: 600;
+  color: #b68834;
+  margin-bottom: 10px;
 }
 
 .gallery-area img {
